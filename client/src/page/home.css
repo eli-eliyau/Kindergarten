@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+  /* ברגע שנעשה פדינג או מרזינן זה יוסיף לגודל הקיים את לכן נרצה שאם הגדרנו גודל הוא יהיה קבוע ונכנס פנימה  */
+}
+.div-1 {
+  /* background-image: url("../img/pro-church-media-2DTE3ePfnD8-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; */
+}
+
+.div-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* position: sticky;
+  top: 0; */
+}
+.div-about {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+}
+.div-form {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.div-details {
+  /* height: 50vh; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.div-updates {
+  /* border: 2px solid #b4b4b4; */
+  height: 23vh;
+  /* border-radius: 8px; */
+  padding: 10px;
+  border-bottom: 5px solid #f7c1c1;
+  border-radius: 10px 40px 10px 40px;
+}
+
+.h4-updates {
+  /* text-size-adjust: auto; */
+  text-align: center;
+  text-shadow: 2px 2px 2px #ce5937;
+  color: #ffffff;
+  background: #f7c1c1;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 25px;
+  letter-spacing: 0px;
+  word-spacing: 0px;
+  /* color: #000000; */
+  font-weight: 700;
+  -webkit-text-decoration: none solid rgb(68, 68, 68);
+  text-decoration: none solid rgb(68, 68, 68);
+  font-style: normal;
+  font-feature-settings: normal;
+  font-variant: normal;
+  text-transform: capitalize;
+  border-radius: 40px 20px 0px 40px;
+}
+.container {
+  margin-top: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.div-recommendations {
+  width: 60vw;
+  height: 100%;
+  border-bottom: 5px solid #f7c1c1;
+  border-radius: 10px 40px 10px 40px;
+  border-radius: 8px;
+}
+.div-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+.a1 {
+  order: 1;
+  color: #ffffff;
+}
+.a2 {
+  order: 2;
+  color: #ffffff;
+}
+.a3 {
+  order: 3;
+  color: #ffffff;
+}
+.a4 {
+  order: 4;
+  color: #ffffff;
+}
+@media (width <=600px) {
+  .div-form,
+  .div-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .div-updates {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .div-recommendations {
+    width: 88%;
+  }
+  .div-whatsApp {
+  }
+  .div-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .a1 {
+    order: 2;
+  }
+  .a2 {
+    order: 3;
+  }
+  .a3 {
+    order: 4;
+  }
+  .a4 {
+    order: 1;
+  }
+}

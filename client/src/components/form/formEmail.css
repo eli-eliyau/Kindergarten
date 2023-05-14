@@ -1,0 +1,118 @@
+.form {
+  direction: "column";
+  justify-content: "space-evenly";
+  align-items: "center";
+  border-bottom: 5px solid #f7c1c1;
+  border-radius: 10px 40px 10px 40px;
+  /* border: 2px solid#b4b4b4; */
+  /* border-radius: 8px; */
+  /* margin-top: 55px; */
+  width: 40vw;
+  /* padding: 15px; */
+  height: 70vh;
+}
+@media (width <=600px) {
+  .form {
+    width: 88%;
+    margin-top: 10px;
+    height: 50%;
+  }
+}
+
+.label {
+  /* font-size: clamp(0.875rem, 1.2vw, 2rem); */
+  font-size: medium;
+  color: #000000;
+  background: 0;
+  margin-top: 5px;
+}
+.input {
+  background: #d7a3c199;
+  /* outline: none; */
+  border-bottom: 2px inset #d7a3c1;
+  box-shadow: 0 0 12px 12px rgba(255, 255, 255, 0);
+  border-top: #ffffff;
+  border-left: #ffffff;
+  border-right: #ffffff;
+  margin: 0;
+  font-size: clamp(0.875rem, 1.2vw, 2rem);
+}
+.input:focus {
+  background: #d7a3c199;
+  border-radius: 40px 20px 0px 40px;
+  border-top: #ffffff;
+  border-left: #ffffff;
+  border-right: #ffffff;
+  border-bottom: 2px inset #d7a3c1;
+  box-shadow: 0 0 2px 2px #d7a3c1;
+  outline: none;
+}
+.button {
+  width: 80%;
+  /* border: 2px solid #ffffff; */
+  border-radius: 8px;
+  padding: 10px;
+  margin: 5px;
+  /* background-color: white; */
+  /* color: black; */
+  /* border: 2px solid #21b6fa; */
+  background-color: #f7c1c1;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 10px;
+}
+.button:hover {
+  background-color: #09e0c0;
+}
+.textarea {
+  background: #d7a3c199;
+  box-shadow: 0 0 12px 12px #d7a3c100;
+  border-bottom: 2px inset #d7a3c1;
+  border-top: #ffffff;
+  border-left: #ffffff;
+  border-right: #ffffff;
+  height: 200px;
+  margin: 0;
+}
+.textarea:focus {
+  background: #d7a3c199;
+  border-radius: 40px 20px 0px 40px;
+  border-top: #ffffff;
+  border-left: #ffffff;
+  border-right: #ffffff;
+  border-bottom: 2px inset #d7a3c1;
+  box-shadow: 0 0 2px 2px #d7a3c1;
+  outline: none;
+}
+.svg {
+  color: #000000;
+}
+
+.h4 {
+  /* font-size: 25px; */
+  /* font-size: clamp(1rem, 1.5vw, 2rem); */
+  text-align: center;
+  text-align: center;
+  text-shadow: 2px 2px 2px #ce5937;
+  color: #ffffff;
+  background: #f7c1c1;
+  border-radius: 40px 20px 0px 40px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 25px;
+  letter-spacing: 0px;
+  word-spacing: 0px;
+  /* color: #000000; */
+  font-weight: 700;
+  text-decoration: none solid rgb(68, 68, 68);
+  font-style: normal;
+  font-variant: normal;
+  text-transform: capitalize;
+}
+
+h6 {
+  color: red;
+  margin: 0;
+  font-size: clamp(0.875rem, 1.2vw, 2rem);
+  padding-right: 0.5rem;
+}

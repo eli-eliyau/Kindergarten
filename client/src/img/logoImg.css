@@ -1,0 +1,9 @@
+.responsive {
+  width: 500px;
+  /* max-width: 300px; */
+  height: auto;
+  /* transition: 2000ms; */
+}
+/* .responsive:hover {
+  transform: scale(1.5, 1.5);
+} */

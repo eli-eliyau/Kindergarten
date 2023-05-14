@@ -1,0 +1,48 @@
+/* Style the container for the stepper */
+.stepper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 600px;
+    background-color: #fafafa;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+  
+  /* Style the individual steps */
+  .stepper .step {
+    position: relative;
+    flex: 1;
+    text-align: center;
+    padding: 16px 0;
+  }
+  
+  /* Style the step label */
+  .stepper .step .step-label {
+    font-size: 16px;
+    font-weight: 600;
+    color: #757575;
+  }
+  
+  /* Style the step connector */
+  .stepper .step:before {
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: -50%;
+    width: 100%;
+    height: 1px;
+    background-color: #e0e0e0;
+  }
+  
+  /* Style the active step */
+  .stepper .step.active {
+    color: #00bcd4;
+  }
+  
+  .stepper .step.active:before {
+    background-color: #00bcd4;
+  }
+  

@@ -1,0 +1,25 @@
+.container-main {
+  /* padding: 15px; */
+  border-bottom: 5px solid #f7c1c1;
+  border-radius: 10px 40px 10px 40px;
+  /* background-color: #14f4f4a8; */
+}
+
+.h4-details {
+  text-align: center;
+  text-align: center;
+  text-shadow: 2px 2px 2px #ce5937;
+  color: #ffffff;
+  background: #f7c1c1;
+  border-radius: 40px 20px 0px 40px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 25px;
+  letter-spacing: 0px;
+  word-spacing: 0px;
+  /* color: #000000; */
+  font-weight: 700;
+  text-decoration: none solid rgb(68, 68, 68);
+  font-style: normal;
+  font-variant: normal;
+  text-transform: capitalize;
+}
