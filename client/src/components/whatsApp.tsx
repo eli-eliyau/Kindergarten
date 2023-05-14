@@ -1,6 +1,6 @@
 import React from "react";
 import { FloatingWhatsApp } from "react-floating-whatsapp";
-import img from "../img/Agam-1.jpg";
+import img from "../img/logo2.png";
 import ReactWhatsapp from "react-whatsapp";
 
 export const WhatsApp = () => {
