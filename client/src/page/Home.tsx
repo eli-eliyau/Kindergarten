@@ -2,6 +2,9 @@ import { Grid, Typography } from "@mui/material";
 import { Box } from "@mui/system";
 import React from "react";
 import { LogoImg } from "../img/logoImg";
+import BackgroundImgForm from "../img/2.png";
+import BackgroundImgDetails from "../img/Wavy_Edu-07_Single-05.jpg";
+
 import { Details } from "../components/Details";
 import { Recommendations } from "../components/Recommendations";
 import { WhatsApp } from "../components/whatsApp";
@@ -37,14 +40,25 @@ export const Home = () => {
 
       <div className="div-form">
         <div className="div-details ">
-          <Details />
-          <div className="div-updates">
-            <h4 className="h4-updates">עדכונים</h4>
-          </div>
+          <img
+            src={BackgroundImgDetails}
+            alt="your image description"
+            width={"700px"}
+          />
         </div>
-        <FormEmail />
+        <div className="div-updates">
+          <Details />
+
+          {/* <h4 className="h4-updates">עדכונים</h4> */}
+        </div>
       </div>
 
+      <div className="div-formEmail">
+        <FormEmail />
+        <div className="div-backgroundImg">
+          <img src={BackgroundImgForm} alt="your image description" />
+        </div>
+      </div>
       <div className="container">
         <div className="div-recommendations">
           <Recommendations />

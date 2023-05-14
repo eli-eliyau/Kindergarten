@@ -43,15 +43,15 @@ const FormEmail = () => {
 
   return (
     <form className="form" onSubmit={handleSubmit(onSubmit)}>
-      <h4 className="h4">
+      <h2 className="h2">
         {" פניה לגננת"}
         <span className="material-icons">outgoing_mail</span>
-      </h4>
+      </h2>
 
-      <label className="label">שם מלא</label>
+      {/* <label className="label">שם מלא</label> */}
       <input
         type="text"
-        placeholder="שמחה ציון"
+        placeholder="שם מלא"
         className="input"
         // maxLength={20}
         {...register("fullName", {
@@ -69,10 +69,10 @@ const FormEmail = () => {
       {/* <div> */}
       <h6>{errors.fullName?.message}</h6>
       {/* </div> */}
-      <label className="label">דוא"ל השולח</label>
+      {/* <label className="label">דוא"ל השולח</label> */}
       <input
         type="email"
-        placeholder="email@gmail.con"
+        placeholder="דואל השולח"
         className="input"
         {...register("email", {
           required: "שדה חובה",
@@ -88,7 +88,7 @@ const FormEmail = () => {
       />
       <h6>{errors.email?.message}</h6>
 
-      <label className="label">כתוב את תוכן הפניה</label>
+      {/* <label className="label">כתוב את תוכן הפניה</label> */}
       <textarea
         placeholder="אני רוצה לרשום את ילדי לגן..."
         className="textarea"
