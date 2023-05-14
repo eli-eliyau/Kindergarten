@@ -17,7 +17,7 @@ export const WhatsApp = () => {
         buttonStyle={{ bottom: "1.2rem", right: "1rem" }}
       />
       {/* <ReactWhatsapp
-        number="+972542801086"
+        number="+97200000000"
         message="Hello World!!!"
         element="button"
       >
