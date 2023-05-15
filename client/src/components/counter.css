@@ -1,0 +1,25 @@
+.h4 {
+  margin-top: 10vh;
+  color: #f8f8f8;
+  text-align: center;
+}
+
+.counter-background {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.counter-text {
+  position: relative;
+  z-index: 2;
+  font-size: 48px;
+  font-weight: bold;
+  color: #d7a3c1;
+  text-align: center;
+}
