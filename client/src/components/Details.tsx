@@ -16,16 +16,17 @@ export const Details = () => {
 
   return (
     <div className="container-main">
-      <h4 className="h4-details">פרטים על המשפחתון</h4>
+      <h3 className="h3-details">פרטים על המשפחתון</h3>
       {details.map((item, key) => {
         return (
           <Typography
             style={{
-              fontSize: "clamp(1rem, 1.5vw, 2rem)",
+              fontSize: "x-large",
             }}
             sx={{
-              color: "#000000",
+              color: "#ffffff",
               paddingLeft: 2,
+              paddingTop: 4,
             }}
           >
             {key === 0 && <EscalatorWarningIcon />}

@@ -1,15 +1,17 @@
 .form {
+  padding-top: 5px;
   direction: "column";
   justify-content: "space-evenly";
   align-items: "center";
-  border-bottom: 5px solid #f7c1c1;
-  border-radius: 10px 40px 10px 40px;
+  /* border-bottom: 5px solid #f7c1c1;
+  border-radius: 10px 40px 10px 40px; */
   /* border: 2px solid#b4b4b4; */
   /* border-radius: 8px; */
-  /* margin-top: 55px; */
+  /* margin-top: 60px; */
   width: 40vw;
   /* padding: 15px; */
-  height: 70vh;
+  height: 60vh;
+  padding-right: 25px;
 }
 @media (width <=600px) {
   .form {
@@ -27,16 +29,21 @@
   margin-top: 5px;
 }
 .input {
-  background: #d7a3c199;
+  color: rgb(123, 79, 79);
+  background: #d7a3c100;
   /* outline: none; */
-  border-bottom: 2px inset #d7a3c1;
+  border-bottom: 3px inset #d7a3c1;
   box-shadow: 0 0 12px 12px rgba(255, 255, 255, 0);
-  border-top: #ffffff;
-  border-left: #ffffff;
-  border-right: #ffffff;
-  margin: 0;
+  border-top: #ffffff00;
+  border-left: #ffffff00;
+  border-right: #ffffff00;
+  margin-top: 40px;
   font-size: clamp(0.875rem, 1.2vw, 2rem);
 }
+input::placeholder {
+  color: rgb(255, 255, 255);
+}
+
 .input:focus {
   background: #d7a3c199;
   border-radius: 40px 20px 0px 40px;
@@ -56,26 +63,31 @@
   /* background-color: white; */
   /* color: black; */
   /* border: 2px solid #21b6fa; */
-  background-color: #f7c1c1;
+  background-color: #d7a3c1;
   display: block;
   margin: 0 auto;
   text-align: center;
   margin-top: 10px;
 }
 .button:hover {
-  background-color: #09e0c0;
+  background-color: #f7c1c1;
 }
 .textarea {
-  background: #d7a3c199;
+  background: #f7c1c100;
   box-shadow: 0 0 12px 12px #d7a3c100;
-  border-bottom: 2px inset #d7a3c1;
+  border-bottom: 3px inset #d7a3c1;
   border-top: #ffffff;
   border-left: #ffffff;
   border-right: #ffffff;
   height: 200px;
-  margin: 0;
+  margin-top: 40px;
 }
+.textarea::placeholder {
+  color: rgb(255, 255, 255);
+}
+
 .textarea:focus {
+  color: #ffffff;
   background: #d7a3c199;
   border-radius: 40px 20px 0px 40px;
   border-top: #ffffff;
@@ -89,20 +101,19 @@
   color: #000000;
 }
 
-.h4 {
+.h2 {
   /* font-size: 25px; */
   /* font-size: clamp(1rem, 1.5vw, 2rem); */
+
   text-align: center;
-  text-align: center;
-  text-shadow: 2px 2px 2px #ce5937;
-  color: #ffffff;
-  background: #f7c1c1;
+  text-shadow: 2px 2px 2px #af55c1c5;
+  color: #d7a3c1;
+  background: #ffffff;
   border-radius: 40px 20px 0px 40px;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-  font-size: 25px;
+  /* font-size: 30px; */
   letter-spacing: 0px;
   word-spacing: 0px;
-  /* color: #000000; */
   font-weight: 700;
   text-decoration: none solid rgb(68, 68, 68);
   font-style: normal;
