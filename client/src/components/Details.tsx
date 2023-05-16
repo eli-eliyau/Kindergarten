@@ -24,7 +24,7 @@ export const Details = () => {
               fontSize: "x-large",
             }}
             sx={{
-              color: "#ffffff",
+              color: "#7E364B",
               paddingLeft: 2,
               paddingTop: 4,
             }}

@@ -32,7 +32,7 @@
   color: rgb(123, 79, 79);
   background: #d7a3c100;
   /* outline: none; */
-  border-bottom: 3px inset #d7a3c1;
+  border-bottom: 3px inset #7e364b;
   box-shadow: 0 0 12px 12px rgba(255, 255, 255, 0);
   border-top: #ffffff00;
   border-left: #ffffff00;
@@ -68,6 +68,7 @@ input::placeholder {
   margin: 0 auto;
   text-align: center;
   margin-top: 10px;
+  color: #7e364b;
 }
 .button:hover {
   background-color: #f7c1c1;
@@ -75,7 +76,7 @@ input::placeholder {
 .textarea {
   background: #f7c1c100;
   box-shadow: 0 0 12px 12px #d7a3c100;
-  border-bottom: 3px inset #d7a3c1;
+  border-bottom: 3px inset #7e364b;
   border-top: #ffffff;
   border-left: #ffffff;
   border-right: #ffffff;
@@ -106,7 +107,7 @@ input::placeholder {
   /* font-size: clamp(1rem, 1.5vw, 2rem); */
 
   text-align: center;
-  text-shadow: 2px 2px 2px #af55c1c5;
+  text-shadow: 2px 2px 2px #7e364b;
   color: #d7a3c1;
   background: #ffffff;
   border-radius: 40px 20px 0px 40px;

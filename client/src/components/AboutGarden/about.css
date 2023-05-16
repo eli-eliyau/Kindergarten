@@ -9,7 +9,7 @@
 
 .h3-about {
   text-align: center;
-  text-shadow: 2px 2px 2px #af55c1c5;
+  text-shadow: 2px 2px 2px #7e364b;
   color: #d7a3c1;
   background: #ffffff;
   border-radius: 40px 20px 0px 40px;
@@ -25,6 +25,6 @@
 }
 
 .p-about {
-  color: #ffffff;
+  color: #7e364b;
   font-size: x-large;
 }
